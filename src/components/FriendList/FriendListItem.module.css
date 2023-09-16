@@ -1,0 +1,30 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  padding: 8px;
+
+  border: 0.5px solid #313036;
+  border-radius: 5px;
+}
+
+.avatar {
+  border-radius: 2px;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.status {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #f54e4e;
+}
+
+.online {
+  background-color: #38a938;
+}
