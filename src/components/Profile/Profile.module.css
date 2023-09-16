@@ -1,0 +1,76 @@
+.profilCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 12px;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #f3f3f8;
+  width: 250px;
+  border: 1px solid #14203b;
+  border-radius: 10px;
+}
+
+.profilDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatarImg {
+  max-width: 150px;
+}
+.userName {
+  font-size: 24px;
+  font-weight: 500;
+  border-bottom: 0.5px solid #313036;
+}
+
+.userTag {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.userLocation {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.statusList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+  margin-top: 12px;
+}
+
+.statusItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 60px;
+  padding: 8px;
+
+  border: 0.5px solid #313036;
+  border-radius: 5px;
+}
+
+.statusDescription{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8c8c8c;
+}
+
+.statusNumber{
+    font-size: 16px;
+    font-weight: 600;
+}
